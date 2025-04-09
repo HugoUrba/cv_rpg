@@ -1,0 +1,26 @@
+body {
+    font-family: 'Press Start 2P', monospace;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.quest {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #555;
+    padding-bottom: 10px;
+}

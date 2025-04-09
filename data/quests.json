@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Business Analyst/MOA pour une solution de suivi de portefeuille",
+    "date_debut": "2023-03-21",
+    "date_fin":"",
+    "role": "Business Analyst - Data",
+    "description": "",
+    "tools": ["Excel", "Jedox"]
+  },
+  {
+    "title": "Analyse des ventes pour un acteur retail",
+    "date_debut": "2022-06-15",
+    "role": "Data Analyst",
+    "description": "Création de dashboards Power BI pour suivre les ventes régionales. Aide à la prise de décision stratégique.",
+    "tools": ["SQL", "Power BI"]
+  },
+  {
+    "title": "Détection de churn avec du machine learning",
+    "date": "2021-09-10",
+    "role": "Data Scientist",
+    "description": "Modélisation d’un algorithme de classification pour prédire l’attrition des clients.",
+    "tools": ["Python", "scikit-learn", "Pandas"]
+  }
+]

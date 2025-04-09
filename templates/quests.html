@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Quêtes - CV RPG{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Journal des quêtes</h2>
+    {% for quest in quests %}
+    <article class="quest">
+        <h3>{{ quest.title }}</h3>
+        <p><em>{{ quest.date }} — {{ quest.role }}</em></p>
+        <p>{{ quest.description }}</p>
+        <p><strong>Outils :</strong> {{ quest.tools | join(', ') }}</p>
+    </article>
+    {% endfor %}
+</section>

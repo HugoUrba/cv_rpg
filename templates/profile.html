@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Profil - CV RPG{% endblock %}
+
+{% block content %}
+<section>
+    <h2>Statistiques du héros</h2>
+    <ul class="skills-list">
+        {% for skill in skills %}
+        <li>
+            <strong>{{ skill.name }}</strong> : Niveau {{ skill.level }} / {{ skill.maxLevel }}
+            <p>{{ skill.description }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock %}
